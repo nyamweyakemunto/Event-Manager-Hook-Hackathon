@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add Event</title>
+  <link rel="stylesheet" href="/public/css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Add Event</h1>
+    <a href="index.html">Go Back</a>
+  </header>
+
+  <form id="event-form">
+    <label for="title">Event Title</label>
+    <input type="text" id="title" name="title" required placeholder="Enter event title">
+
+    <label for="description">Description</label>
+    <textarea id="description" name="description" required placeholder="Enter event description"></textarea>
+
+    <label for="date">Date</label>
+    <input type="date" id="date" name="date" required min="2025-01-16">
+
+    <button type="submit">Add Event</button>
+  </form>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
